@@ -30,7 +30,7 @@ Output:
 
 Direct copy of chatbot responses (i.e. with the copy button) doesn't always produce valid Markdown compatible with Quarto. With the `tex_math_single_backslash` option in header, the back-slash in-line math like `\(\sin(x)/x\)` and display math with `\[ \frac{\sin(x)}{n} \neq si x = 6 \]` renders fine with Quarto.
 
-All of this is subject to change, but as of September 2026:
+All of this is subject to change, but as of September 2026 I find:
 
 * **Claude**, **Gemini**:  
 'Copy' button produces fully qualified Quarto markdown with `$ $` and `$$ $$`.
