@@ -16,12 +16,12 @@ These are templates that I use everyday and I hope you find them useful
 
 * [Proto.qmd](./Proto.qmd) - Illustrates a multi-section document with bold math and how to label and reference equations  
 Output:
-[Proto.pdf](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto.pdf) | [Proto.docx](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto.docx) | [Proto.html](https://nicholst.github.io/IheartQuarto/main/Output/Proto.html) 
+[Proto.pdf](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto.pdf) | [Proto.docx](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto.docx) | [Proto.html](https://nicholst.github.io/IheartQuarto/Output/Proto.html) 
 * [Proto_wRefs.qmd](./Proto_wRef.qmd) - [Proto_wRefs.bib](./Proto_wRef.bib) - Same as prevoius, but with bibliographic references  
 Output: 
 [Proto_wRefs.pdf](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto_wRefs.pdf) | 
 [Proto.docx](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto_wRefs.docx) | 
-<a href="https://nicholst.github.io/IheartQuarto/main/Output/Proto_wRefs.html" target="_blank">Proto_wRefs.html</a>
+<a href="https://nicholst.github.io/IheartQuarto/Output/Proto_wRefs.html" target="_blank">Proto_wRefs.html</a>
 
 
 * [qmdRender.sh](./qmdRender.sh) - Bash script to render to PDF, Word & HTML
