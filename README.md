@@ -14,8 +14,8 @@ If you want to give it a try, get Quarto from https://quarto.org/docs/get-starte
 
 These are templates that I use everyday and I hope you find them useful
 
-* [Proto.qmd](./Proto.qmd) - File with basic structure for multi-section document with labelled equations; includes hints for working with chatbots
-* [Proto_wRefs.qmd](./Proto_wRef.qmd) - [Proto_wRefs.bib](./Proto_wRef.bib) - Basic document showing how to use references
+* [Proto.qmd](./Proto.qmd) - Illustrates a multi-section document with bold math and how to label and reference equations
+* [Proto_wRefs.qmd](./Proto_wRef.qmd) - [Proto_wRefs.bib](./Proto_wRef.bib) - Same as prevoius, but with bibliographic references
 * [qmdRender.sh](./qmdRender.sh) - Bash script to render to PDF, Word & HTML
 
 # Math content from chatbots
