@@ -28,6 +28,7 @@ format:
     code-tools: true
     header-includes:  # provides \bm{...} for bold mathematical symbols
       - $$\newcommand{\bm}[1]{\boldsymbol{\mathbf{#1}}}$$
+    embed-resources: true  # create single-file HTML
 crossref:
   eq-prefix: "Eqn."
 ---
