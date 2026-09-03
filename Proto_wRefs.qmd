@@ -1,0 +1,53 @@
+---
+title: "Quarto Proto Doc"
+author:
+  - name:  Y. R. Name
+    orcid: 0000-0000-0000-0000
+    email: yr.name@uni.edu
+    affiliation: 
+      - name: University of Universality
+date: last-modified
+bibliography: Proto_wRefs.bib
+link-citations: true
+toc: true
+toc-depth: 2
+number-sections: true
+linestretch: 1.5  # extra line spacing
+fontsize: 12pt
+papersize: a4  # or letter
+from: markdown+tex_math_single_backslash  # allows \( \) & \[ \] math
+format:
+  pdf:
+    pdf-engine: xelatex  # supports modern fonts while retaining traditional LaTeX math
+    page-layout: full
+    mathspec: true  # for compatibility with the bm package
+    header-includes: 
+      - \usepackage{bm}  # provides \bm{...} for bold mathematical symbols
+  html:
+    code-fold: true
+    code-tools: true
+    header-includes:  # provides \bm{...} for bold mathematical symbols
+      - $$\newcommand{\bm}[1]{\boldsymbol{\mathbf{#1}}}$$
+crossref:
+  eq-prefix: "Eqn."
+---
+
+\newcommand{\op}[1]{\operatorname{#1}} <!--# e.g. for \op{tr} or \op{Rank} -->
+
+# Introduction
+
+Most statistical models can be seen as a special case or extension of the General Linear Model: 
+$$
+\bm{Y}=\bm{X}\bm{\beta}+\bm{\epsilon}.
+$$ {#eq-GLM}
+
+For @eq-GLM, A-optimality of a design is based on $\op{tr}((\bm{X}^\top\bm{X})^{-1})$.
+
+@pearsonInheritanceInsanity1905 is an old reference, but there are older ones [@spearmanProofMeasurementAssociation1904].
+
+# References
+
+\bibliography{refs}
+
+::: {#refs}
+:::
