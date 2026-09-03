@@ -10,11 +10,28 @@ For full-length technical journal papers, I'm still using LaTeX/Overleaf, but wh
 
 If you want to give it a try, get Quarto from https://quarto.org/docs/get-started ... you can use it completely from within Rstudio or VScode, but I prefer using a text editor and then rendering from a command line script that generates PDF+Word+HTML (see [qmdRender.sh](./qmdRender.sh); it may seem excessive to render all three, and usually I only use the PDF and docx, but large figures often look best in HTML.
 
+# Templates
+
 These are templates that I use everyday and I hope you find them useful
 
 * [Proto.qmd](./Proto.qmd) - File with basic structure for multi-section document with labelled equations; includes hints for working with chatbots
 * [Proto_wRefs.qmd](./Proto_wRef.qmd) - [Proto_wRefs.bib](./Proto_wRef.bib) - Basic document showing how to use references
 * [qmdRender.sh](./qmdRender.sh) - Bash script to render to PDF, Word & HTML
+
+# Math content from chatbots
+
+Direct copy of chatbot responses (i.e. with the copy button) doesn't always produce valid Markdown compatible with Quarto. With the `tex_math_single_backslash` option in header, the back-slash in-line math like `\(\sin(x)/x\)` and display math with `\[ \frac{\sin(x)}{n} \neq si x = 6 \]` renders fine with Quarto.
+
+All of this is subject to change, but as of September 2026:
+
+* **Claude**, **Gemini**:  
+'Copy' button produces fully qualified Quarto markdown with `$ $` and `$$ $$`.
+* **ChatGPT**, **DeepSeek**,  **Perplexity**:  
+'Copy' button produces Quarto-compatible Markdown, with `\( \)` and `\[ \]`.
+* **Copilot**:  
+'Copy' button produces text with mix of LaTeX and unicode Greek letters; add to prompt "`issue response formatted for Quarto markdown`", or on next prompt "`reissue previous response formatted for Quarto markdown`".
+
+
 
 ![Three renderings](./Screenshot.jpg)
 
