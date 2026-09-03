@@ -22,9 +22,9 @@ Output:
 [Proto_wRefs.pdf](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto_wRefs.pdf) | 
 [Proto.docx](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto_wRefs.docx) | 
 [Proto_wRefs.html](https://nicholst.github.io/IheartQuarto/Output/Proto_wRefs.html)
-
-
 * [qmdRender.sh](./qmdRender.sh) - Bash script to render to PDF, Word & HTML
+
+![Three renderings](Output/Screenshot.jpg)
 
 # Math content from chatbots
 
@@ -39,7 +39,21 @@ All of this is subject to change, but as of September 2026 I find:
 * **Copilot**:  
 'Copy' button produces text with mix of LaTeX and unicode Greek letters; add to prompt "`issue response formatted for Quarto markdown`", or on next prompt "`reissue previous response formatted for Quarto markdown`".
 
+# My customisations
+
+When I started using Quarto, it drove me nuts that one type of boldface math would work for PDF but not in Word or HTML. 
+It took lots of fiddling, but the best option I found was using the `bm` package (which is _so_ much easier than boldsymbol/boldmath), which required a custom pdf-engine with `mathspec: true` to _also_ keep `\boldsymbol` valid, and a hacky `\bm` alias for HTML.
+
+Other customisations include:
+
+* Use the author heading, with affilation and ORCID (though ORCID currently only shows up on HTML)
+* Use table of contents
+* Number sections
+* One-and-a-half line spacing, the traditional format of draft manuscripts (ignored by Word, and some hate it)
+* Paper size A4 (ignored by Word)
+* The `markdown+tex_math_single_backslash` option that  allows \( \) & \[ \] math used on web and with chatbots
+* Equation prefix Eqn.
 
 
-![Three renderings](Output/Screenshot.jpg)
+
 
