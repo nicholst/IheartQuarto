@@ -42,7 +42,7 @@ All of this is subject to change, but as of September 2026 I find:
 # My customisations
 
 When I started using Quarto, it drove me nuts that one type of boldface math would work for PDF but not in Word or HTML. 
-It took lots of fiddling, but the best option I found was using the `bm` package (which is _so_ much easier than boldsymbol/boldmath), which required a custom pdf-engine with `mathspec: true` to _also_ keep `\boldsymbol` valid, and a hacky `\bm` alias for HTML.
+It took lots of fiddling, but the best option I found was using the `bm` package (which is _so_ much easier than boldsymbol/boldmath), which for PDF required a `pdf-engine` and `mathspec: true` to _also_ prevent `\boldsymbol` throwing an error, and for HTML a hacky `\bm` alias.
 
 Other customisations include:
 
@@ -51,9 +51,7 @@ Other customisations include:
 * Number sections
 * One-and-a-half line spacing, the traditional format of draft manuscripts (ignored by Word, and some hate it)
 * Paper size A4 (ignored by Word)
-* The `markdown+tex_math_single_backslash` option that  allows \( \) & \[ \] math used on web and with chatbots
-* Equation prefix Eqn.
-
-
-
+* The `markdown+tex_math_single_backslash` option that  allows `\( \)` & `\[ \]` math used on web and with chatbots
+* Equation prefix "Eqn." intead of "Equation"
+* Added `\op` macro for `\operatorname`, mainly to remind myself that LaTeX macros are allowed
 
