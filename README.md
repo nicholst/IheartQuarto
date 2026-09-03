@@ -6,10 +6,15 @@ My solution: Quarto (https://quarto.org), a generalisation of Rstudio's Rmarkdow
 
 For full-length technical journal papers, I'm still using LaTeX/Overleaf, but when I need to quickly iterate on a method with a collaborator, it's the fastest way to combine prose and math.
 
-If you want to give it a try, get it from https://quarto.org/docs/get-started ... you can use it completley from within Rstudio or VScode, but I prefer using a text editor and then rendering from a command line script that generates PDF+Word+HTML. It may seem excessive, and usually I only use the PDF and docx, but large figures often look best in HTML.
+If you want to give it a try, get Quarto from https://quarto.org/docs/get-started ... you can use it completley from within Rstudio or VScode, but I prefer using a text editor and then rendering from a command line script that generates PDF+Word+HTML. It may seem excessive, and usually I only use the PDF and docx, but large figures often look best in HTML.
 
-You can find my proto scripts in this repo.
+These are templates that I use everyday and I hope you find them useful
 
+* [Proto.qmd](./Proto.qmd) - File with basic structure for multi-section document with labeled equations; includes hints for working with chatbots
+* [Proto_wRefs.qmd](./Proto_wRef.qmd) - [Proto_wRefs.bib](./Proto_wRef.bib) - Basic document showing how to use refernces
+* [qmdRender.sh](./qmdRend.sh) - Bash script to render to PDF, Word & HTML
+
+![Three renderings](./Screenshot.jpg)
 
 
 
