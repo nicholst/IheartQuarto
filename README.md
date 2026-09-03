@@ -8,7 +8,7 @@ While some might know Quarto as a notebook that can integrate R & Python, I trea
 
 For full-length technical journal papers, I'm still using LaTeX/Overleaf, but when I need to quickly iterate on a method with a collaborator, it's the fastest way to combine prose and math.
 
-If you want to give it a try, get Quarto from https://quarto.org/docs/get-started ... you can use it completely from within Rstudio or VScode, but I prefer using a text editor and then rendering from a command line script that generates PDF+Word+HTML (see [qmdRender.sh](./qmdRender.sh); it may seem excessive to render all three, and usually I only use the PDF and docx, but large figures often look best in HTML.
+If you want to give it a try, get Quarto from https://quarto.org/docs/get-started ... you can use it completely from within Rstudio or VScode, but I prefer using a text editor and then rendering from a command line script that generates PDF+Word+HTML (see [qmdRender.sh](./qmdRender.sh); it may seem excessive to render all three, and usually I only use the PDF and docx, but large figures often look best in HTML. (To be clear, each output _looks_ different, but the actual content is the same.)
 
 # Templates
 
