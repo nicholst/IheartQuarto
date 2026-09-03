@@ -33,7 +33,7 @@ All of this is subject to change, but as of September 2026:
 
 
 
-![Three renderings](./Screenshot.jpg)
+![Three renderings](Output/Screenshot.jpg)
 
 
 
