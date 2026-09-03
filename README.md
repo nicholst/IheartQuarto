@@ -15,7 +15,7 @@ If you want to give it a try, get Quarto from https://quarto.org/docs/get-starte
 These are templates that I use everyday and I hope you find them useful
 
 * [Proto.qmd](./Proto.qmd) - Illustrates a multi-section document with bold math and how to label and reference equations  
-Output: [Proto.pdf](raw/refs/heads/main/Output/Proto.pdf) | [Proto.docx](raw/refs/heads/main/Output/Proto.docx) | [Proto.html](raw/refs/heads/main/Output/Proto.html) 
+Output: [Proto.pdf](Output/Proto.pdf?raw=1) | [Proto.docx](Output/Proto.docx?raw=1) | [Proto.html](Output/Proto.html?raw=1) 
 * [Proto_wRefs.qmd](./Proto_wRef.qmd) - [Proto_wRefs.bib](./Proto_wRef.bib) - Same as prevoius, but with bibliographic references  
 Output: [Proto_wRefs.pdf](raw/refs/heads/main/Output/Proto_wRefs.pdf) | [Proto.docx](raw/refs/heads/main/Output/Proto_wRefs.docx) | [Proto_wRefs.html](raw/refs/heads/main/Output/Proto_wRefs.html) 
 
