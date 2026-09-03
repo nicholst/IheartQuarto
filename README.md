@@ -1,8 +1,10 @@
 # I ♥ Quarto
 
-As a statistician that collaborates with with non-statisticians, I've always struggled how to write collaboratively. Overleaf is great, but only if you're LaTeX native. Word and Google Docs equations are actually not bad, typesetting based on LaTeX conventions, but still quirky and very awkward with search/replace. Another challenge capturing mathematical output from chatbots to edit and incorporate into documents.
+As a statistician that collaborates with with non-statisticians, I've always struggled how to write collaboratively. Overleaf is great, but only if you're LaTeX native. Word and Google Docs equations are actually not bad, typesetting based on LaTeX conventions, but they're quirky and very awkward with search/replace. Another challenge is capturing mathematical output from chatbots to edit and incorporate into documents.
 
-My solution: Quarto (https://quarto.org), a generalisation of Rstudio's Rmarkdown. While some might know it as a notebook that can integrate R & Python, I treasure it as a way of quickly composing documents in a text editor which I can then render to PDF, Word docx, HTML, etc.  I also use it to capture useful mathematical output from a chatbot for subsequent editing (note some chatbots use `\( \)` for math which isn't LaTeX but works fine with Quarto (with `markdown+tex_math_single_backslash` option; see my templates below). And when a collaborator using Word wants material for a methods section, I can write the methods in LaTeX/markdown in a qmd document and then send the docx-rendered version.
+My solution: Quarto (https://quarto.org), a generalisation of Rstudio's Rmarkdown. 
+
+While some might know Quarto as a notebook that can integrate R & Python, I treasure it as a way of quickly composing documents in a text editor which I can then render to PDF, Word docx, HTML, etc.  I also use it to capture useful mathematical output from a chatbot for subsequent editing (note some chatbots use `\( \)` and `\[ \]` for math which isn't LaTeX but works fine with Quarto (with `markdown+tex_math_single_backslash` option; see my templates below). And when a collaborator using Word wants material for a methods section, I can write the methods in LaTeX/markdown in a qmd document and then send the docx-rendered version.
 
 For full-length technical journal papers, I'm still using LaTeX/Overleaf, but when I need to quickly iterate on a method with a collaborator, it's the fastest way to combine prose and math.
 
