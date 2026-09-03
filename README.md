@@ -14,6 +14,7 @@ If you want to give it a try, get Quarto from https://quarto.org/docs/get-starte
 
 These are templates that I use everyday and I hope you find them useful
 
+[Download Proto.pdf](https://raw.githubusercontent.com/nicholst/IheartQuarto/main/Output/Proto.pdf)
 
 * [Proto.qmd](./Proto.qmd) - Illustrates a multi-section document with bold math and how to label and reference equations  
 Output: [Proto.pdf](https://raw.githubusercontent.com/nicholst/IheartQuarto/Output/Proto.pdf) | [Proto.docx](https://raw.githubusercontent.com/nicholst/IheartQuarto/Proto.docx) | [Proto.html](https://raw.githubusercontent.com/nicholst/IheartQuarto/Output/Proto.html) 
